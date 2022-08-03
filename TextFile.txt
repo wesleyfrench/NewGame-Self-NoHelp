@@ -1,0 +1,15 @@
+Learning To Create Files and Code files such as a Js File
+    - To create a Js file and Name.Js
+
+Ideas for a game
+- Patformer Easy 
+- FPS Hard
+- Third Person Hard
+- Any 2d Game Easy 
+- Build Project A
+
+
+
+Side Project 
+- Create Game in Unreal 
+    * Because it seems to be the most advanced and growing in popularity  
