@@ -11,5 +11,5 @@ window.onload=()=>{
     img.onload = function() {
         ctx.drawImage(img, 0, 0, 600, 400);
     };
-    img.src = 'Back Ground.png';
+    img.src = 'Background.png';
 }
