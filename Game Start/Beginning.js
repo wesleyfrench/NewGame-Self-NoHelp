@@ -1,4 +1,3 @@
-console.log("Hello World");
 window.onload=()=>{
     console.log("Page loaded - loader load");
     let canvas = document.getElementById("my-canvas")

@@ -5,55 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script type="text/javascript" src="Character.js">
- 
- function leftArrowPressed() {
-        var element = document.getElementById("image1");
-        element.style.left = parseInt(element.style.left) - 5 + 'px';
-      }
-
-      function rightArrowPressed() {
-        var element = document.getElementById("image1");
-        element.style.left = parseInt(element.style.left) + 5 + 'px';
-
-      }
-
-      function upArrowPressed() {
-        var element = document.getElementById("image1");
-        element.style.top = parseInt(element.style.top) - 5 + 'px';
-      }
-
-      function downArrowPressed() {
-        var element = document.getElementById("image1");
-        element.style.top = parseInt(element.style.top) + 5 + 'px';
-      }
-
-      function moveSelection(evt) {
-        switch (evt.keyCode) {
-          case 37:
-            leftArrowPressed();
-            break;
-          case 39:
-            rightArrowPressed();
-            break;
-          case 38:
-            upArrowPressed();
-            break;
-          case 40:
-            downArrowPressed();
-            break;
-        }
-      };
- 
-        function movment() {
-            window.addEventListener('keydown', moveSelection);
-}
-   </script>
-
+    <script type="text/javascript" src="Character.js"></script>
 
 </head>
-<body onload="movment()" onkeydown="" onkeyup="">
+<body>
     <canvas id="my-canvas" width="600" height="400" style="position:absolute; top: 0px; left: 0px;"></canvas>
-    <img id="image1" src="Player.png" style="position:absolute;left:0; top:0;" height="15" width="15">
 </body>
 </html>
